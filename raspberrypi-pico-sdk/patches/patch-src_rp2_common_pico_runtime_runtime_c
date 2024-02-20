@@ -1,0 +1,41 @@
+_exit is defined in our libc.a and this conflicts, so change it here
+
+Index: src/rp2_common/pico_runtime/runtime.c
+--- src/rp2_common/pico_runtime/runtime.c.orig
++++ src/rp2_common/pico_runtime/runtime.c
+@@ -179,7 +179,7 @@ void runtime_init(void) {
+ 
+ }
+ 
+-void __attribute__((noreturn)) __attribute__((weak)) _exit(__unused int status) {
++void __attribute__((noreturn)) __attribute__((weak)) _atexit(__unused int status) {
+ #if PICO_ENTER_USB_BOOT_ON_EXIT
+     reset_usb_boot(0,0);
+ #else
+@@ -257,7 +257,7 @@ __attribute((weak)) int _kill(__unused pid_t pid, __un
+ 
+ // exit is not useful... no desire to pull in __call_exitprocs
+ void exit(int status) {
+-    _exit(status);
++    _atexit(status);
+ }
+ 
+ // incorrect warning from GCC 6
+@@ -268,7 +268,7 @@ void __assert_func(const char *file, int line, const c
+            failedexpr, file, line, func ? ", function: " : "",
+            func ? func : "");
+ 
+-    _exit(1);
++    _atexit(1);
+ }
+ GCC_Pragma("GCC diagnostic pop")
+ 
+@@ -322,7 +322,7 @@ void __attribute__((noreturn)) __printflike(1, 0) pani
+ #endif
+     }
+ 
+-    _exit(1);
++    _atexit(1);
+ }
+ #endif
+ 

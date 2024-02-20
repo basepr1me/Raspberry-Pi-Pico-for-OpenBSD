@@ -1,0 +1,76 @@
+%%aarch64%%
+%%arm%%
+@comment @man man/man7/fsf-funding.7
+@comment @man man/man7/gfdl.7
+@comment @man man/man7/gpl.7
+${CONFIG}/bootstrap/
+${CONFIG}/bootstrap/bin/
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-cpp
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcc
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcc-${VERSION}
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcc-ar
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcc-nm
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcc-ranlib
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcov
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcov-dump
+@bin ${CONFIG}/bootstrap/bin/${CONFIG}-gcov-tool
+${CONFIG}/bootstrap/lib/
+${CONFIG}/bootstrap/lib/gcc/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include-fixed/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include-fixed/README
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include-fixed/limits.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include-fixed/syslimits.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_acle.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_bf16.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_cde.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_cmse.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_fp16.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_mve.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_mve_types.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/arm_neon.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/float.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/iso646.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/mmintrin.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdalign.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdarg.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdatomic.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdbool.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stddef.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdfix.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdint-gcc.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdint.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/stdnoreturn.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/tgmath.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/unwind-arm-common.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/include/varargs.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/fixinc_list
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/gsyslimits.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/include/
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/include/README
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/include/limits.h
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/macro_list
+${CONFIG}/bootstrap/lib/gcc/${CONFIG}/${VERSION}/install-tools/mkheaders.conf
+${CONFIG}/bootstrap/libexec/
+${CONFIG}/bootstrap/libexec/gcc/
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/
+@bin ${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/cc1
+@bin ${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/collect2
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/install-tools/
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/install-tools/fixinc.sh
+@bin ${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/install-tools/fixincl
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/install-tools/mkheaders
+${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/install-tools/mkinstalldirs
+@bin ${CONFIG}/bootstrap/libexec/gcc/${CONFIG}/${VERSION}/lto-wrapper
+${CONFIG}/include/
+${CONFIG}/share/info/
+@comment @man ${CONFIG}/share/man/man1/${CONFIG}-cpp.1
+@comment @man ${CONFIG}/share/man/man1/${CONFIG}-gcc.1
+@comment @man ${CONFIG}/share/man/man1/${CONFIG}-gcov-dump.1
+@comment @man ${CONFIG}/share/man/man1/${CONFIG}-gcov-tool.1
+@comment @man ${CONFIG}/share/man/man1/${CONFIG}-gcov.1
+${CONFIG}/share/man/man7/

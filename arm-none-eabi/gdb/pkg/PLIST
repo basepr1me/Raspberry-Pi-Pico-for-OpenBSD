@@ -1,0 +1,60 @@
+@comment include/gdb/
+@comment include/gdb/jit-reader.h
+@comment lib/charset.alias
+@comment share/gdb/syscalls/
+@comment share/gdb/syscalls/aarch64-linux.xml
+@comment share/gdb/syscalls/amd64-linux.xml
+@comment share/gdb/syscalls/arm-linux.xml
+@comment share/gdb/syscalls/freebsd.xml
+@comment share/gdb/syscalls/gdb-syscalls.dtd
+@comment share/gdb/syscalls/i386-linux.xml
+@comment share/gdb/syscalls/mips-n32-linux.xml
+@comment share/gdb/syscalls/mips-n64-linux.xml
+@comment share/gdb/syscalls/mips-o32-linux.xml
+@comment share/gdb/syscalls/ppc-linux.xml
+@comment share/gdb/syscalls/ppc64-linux.xml
+@comment share/gdb/syscalls/s390-linux.xml
+@comment share/gdb/syscalls/s390x-linux.xml
+@comment share/gdb/syscalls/sparc-linux.xml
+@comment share/gdb/syscalls/sparc64-linux.xml
+@comment share/gdb/system-gdbinit/
+@comment share/gdb/system-gdbinit/elinos.py
+@comment share/gdb/system-gdbinit/wrs-linux.py
+arm-none-eabi/
+arm-none-eabi/bin/
+@bin arm-none-eabi/bin/arm-none-eabi-gdb
+@bin arm-none-eabi/bin/arm-none-eabi-run
+arm-none-eabi/include/
+arm-none-eabi/include/gdb/
+arm-none-eabi/include/gdb/jit-reader.h
+arm-none-eabi/lib/
+arm-none-eabi/lib/charset.alias
+@static-lib arm-none-eabi/lib/libarm-none-eabi-sim.a
+arm-none-eabi/share/
+arm-none-eabi/share/gdb/
+arm-none-eabi/share/gdb/syscalls/
+arm-none-eabi/share/gdb/syscalls/aarch64-linux.xml
+arm-none-eabi/share/gdb/syscalls/amd64-linux.xml
+arm-none-eabi/share/gdb/syscalls/arm-linux.xml
+arm-none-eabi/share/gdb/syscalls/freebsd.xml
+arm-none-eabi/share/gdb/syscalls/gdb-syscalls.dtd
+arm-none-eabi/share/gdb/syscalls/i386-linux.xml
+arm-none-eabi/share/gdb/syscalls/mips-n32-linux.xml
+arm-none-eabi/share/gdb/syscalls/mips-n64-linux.xml
+arm-none-eabi/share/gdb/syscalls/mips-o32-linux.xml
+arm-none-eabi/share/gdb/syscalls/ppc-linux.xml
+arm-none-eabi/share/gdb/syscalls/ppc64-linux.xml
+arm-none-eabi/share/gdb/syscalls/s390-linux.xml
+arm-none-eabi/share/gdb/syscalls/s390x-linux.xml
+arm-none-eabi/share/gdb/syscalls/sparc-linux.xml
+arm-none-eabi/share/gdb/syscalls/sparc64-linux.xml
+arm-none-eabi/share/gdb/system-gdbinit/
+arm-none-eabi/share/gdb/system-gdbinit/elinos.py
+arm-none-eabi/share/gdb/system-gdbinit/wrs-linux.py
+arm-none-eabi/share/info/
+@mandir arm-none-eabi/share/man/
+arm-none-eabi/share/man/man1/
+@man arm-none-eabi/share/man/man1/arm-none-eabi-gdb.1
+@man arm-none-eabi/share/man/man1/arm-none-eabi-gdbserver.1
+arm-none-eabi/share/man/man5/
+@man arm-none-eabi/share/man/man5/arm-none-eabi-gdbinit.5

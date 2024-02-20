@@ -1,0 +1,77 @@
+%%aarch64%%
+%%arm%%
+${CONFIG}/
+${CONFIG}/${CONFIG}/
+${CONFIG}/${CONFIG}/bin/
+@bin ${CONFIG}/${CONFIG}/bin/ar
+@bin ${CONFIG}/${CONFIG}/bin/as
+@bin ${CONFIG}/${CONFIG}/bin/ld
+@bin ${CONFIG}/${CONFIG}/bin/ld.bfd
+@bin ${CONFIG}/${CONFIG}/bin/nm
+@bin ${CONFIG}/${CONFIG}/bin/objcopy
+@bin ${CONFIG}/${CONFIG}/bin/objdump
+@bin ${CONFIG}/${CONFIG}/bin/ranlib
+@bin ${CONFIG}/${CONFIG}/bin/readelf
+@bin ${CONFIG}/${CONFIG}/bin/strip
+${CONFIG}/${CONFIG}/lib/
+${CONFIG}/${CONFIG}/lib/ldscripts/
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.x
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xbn
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xc
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xce
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xd
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xdc
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xdce
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xde
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xdw
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xdwe
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xe
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xn
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xr
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xs
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xsc
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xsce
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xse
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xsw
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xswe
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xu
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xw
+${CONFIG}/${CONFIG}/lib/ldscripts/armelf.xwe
+${CONFIG}/bin/
+@bin ${CONFIG}/bin/${CONFIG}-addr2line
+@bin ${CONFIG}/bin/${CONFIG}-ar
+@bin ${CONFIG}/bin/${CONFIG}-as
+@bin ${CONFIG}/bin/${CONFIG}-c++filt
+@bin ${CONFIG}/bin/${CONFIG}-elfedit
+@bin ${CONFIG}/bin/${CONFIG}-gprof
+@bin ${CONFIG}/bin/${CONFIG}-ld
+@bin ${CONFIG}/bin/${CONFIG}-ld.bfd
+@bin ${CONFIG}/bin/${CONFIG}-nm
+@bin ${CONFIG}/bin/${CONFIG}-objcopy
+@bin ${CONFIG}/bin/${CONFIG}-objdump
+@bin ${CONFIG}/bin/${CONFIG}-ranlib
+@bin ${CONFIG}/bin/${CONFIG}-readelf
+@bin ${CONFIG}/bin/${CONFIG}-size
+@bin ${CONFIG}/bin/${CONFIG}-strings
+@bin ${CONFIG}/bin/${CONFIG}-strip
+${CONFIG}/share/
+@mandir ${CONFIG}/share/man/
+${CONFIG}/share/man/man1/
+@man ${CONFIG}/share/man/man1/${CONFIG}-addr2line.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-ar.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-as.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-c++filt.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-dlltool.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-elfedit.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-gprof.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-ld.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-nm.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-objcopy.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-objdump.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-ranlib.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-readelf.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-size.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-strings.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-strip.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-windmc.1
+@man ${CONFIG}/share/man/man1/${CONFIG}-windres.1

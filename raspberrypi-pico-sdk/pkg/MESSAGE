@@ -1,0 +1,12 @@
+To compile projects in OpenBSD:
+
+obsd$ cd $PROJECT_PATH
+
+Add the following to CMakeFile.txt before project command:
+
+include(${LOCALBASE}/raspberrypi-pico-sdk/pico_sdk_init.cmake)
+
+obsd$ mkdir build && cd build
+obsd$ cmake -DPICO_TOOLCHAIN_PATH=${LOCALBASE}/arm-none-eabi/bin ..
+obsd$ make
+
